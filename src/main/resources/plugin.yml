@@ -1,0 +1,3 @@
+name: Bedwars1058-CloudNet-Addon
+version: '${version}'
+main: fr.bedwars1058cloudnetaddon.Bedwars1058_CloudNet_Addon
