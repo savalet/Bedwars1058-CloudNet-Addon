@@ -15,10 +15,14 @@ repositories {
         name = "sonatype"
         url = "https://oss.sonatype.org/content/groups/public/"
     }
+    maven {
+        url 'https://repo.cloudnetservice.eu/repository/releases/'
+    }
 }
 
 dependencies {
     compileOnly "com.destroystokyo.paper:paper-api:1.12-R0.1-SNAPSHOT"
+    implementation 'de.dytanic.cloudnet:cloudnet-wrapper-jvm:3.4.0-RELEASE'
 }
 
 def targetJavaVersion = 8

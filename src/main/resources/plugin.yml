@@ -1,3 +1,6 @@
 name: Bedwars1058-CloudNet-Addon
-version: '${version}'
-main: fr.bedwars1058cloudnetaddon.Bedwars1058_CloudNet_Addon
+version: '1.2-RELEASE'
+author: savalet
+main: fr.savalet.bwcloudnet.bwcloudnet
+loadbefore:
+  - Bedwars1058
